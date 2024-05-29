@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my Personal Website to showcase my all works I have done so far, the services I provide and my portfolio." />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Personal Website" />
+    <meta name="author" content="Yash Rathod, Thapa Technical" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="index.js"></script>
+    <title>Yash's Personal Website</title>
+</head>
+
+<body>
+    <header class="header">     
+        <img src="images/logo.png" alt="our main logo" class="logo" />
+
+        <nav class="navbar">
+            <ul class="navbar-lists">
+                <li><a href="/index.html" class="navbar-link home-link">Home</a></li>
+                <li>
+                    <a href="/about.html" class="navbar-link about-link">About</a>
+                </li>
+                <li>
+                    <a class="navbar-link service-link" href="/service.html">Services</a>
+                </li>
+                <li>
+                    <a class="navbar-link portfolio-link" href="/portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a class="navbar-link contact-link" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+    <!-- ======================================== 
+            Our Main Hero Section Start  
+      ========================================  -->
+    <main>
+        <section class="section-hero section">
+            <div class="container grid grid-two-column">
+                <div class="section-hero-data">
+                    <p class="hero-top-data">this is me</p>
+                    <h1 class="hero-heading">Yash Rathod</h1>
+                    <p class="hero-para">
+                        I'm Yash Rathod. A Front-End Developer and a Freelancer.
+                    </p>
+                    <div>
+                        <a href="#contact" class="btn hireme-btn">Hire me</a>
+                    </div>
+                </div>
+                <!-- hero section right side  -->
+                <div class="section-hero-image">
+                    <picture>
+                        <img src="images/profile.jpeg" alt="this is me Yash Rathod " class="hero-img" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ======================================== 
+            Our Bio-Data Section Start  
+      ========================================  -->
+
+    <section class="section-biodata section">
+        <div class="container grid grid-two-column">
+            <div class="bio-image">
+                <img src="images/biodata-compressed.jpg" alt="my bio data image" />
+            </div>
+            <!-- bio right side data  -->
+            <div class="bio-data">
+                <h2 class="common-heading">my bio-data</h2>
+                <p>
+                    I'm a Front-End Developer. Basically Front-End Developers work is to design Web Page. I have mentioned my skills in different languages.
+                </p>
+                </p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Design</h3>
+                        <div class="bio-progress-bar">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>95%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>80%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>60%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-btn">
+                    <a href="https://drive.google.com/file/d/17825DtDe6fmb1-UIWUyk5SpszoynBIbs/view?usp=sharing"  target="_blank" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+            Our portfolio Section Start  
+      ========================================  -->
+    <section class="section section-portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="common-heading">Latest Works</h2>
+            <p>
+               This are recent Projects made by me.
+            </p>
+        </div>
+
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Website</div>
+            <div class="btn p-btn" data-btn-num="2">Youtube</div>
+            <div class="btn p-btn" data-btn-num="3">Design</div>
+        </div>
+
+        <div class="container grid grid-three-column portfolio-images">
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/1-compressed.jpg" alt="my works" />
+                <div class="overlay">
+                    <a href="https://www.codewithharry.com/" target="_yash" class="common-heading">Project
+                        1</a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--3">
+                <img src="images/folio/4-compressed.jpg" alt="my works" />
+                <div class="overlay">
+                    <a href="https://www.codewithharry.com/" target="_yash" class="common-heading">Project 2
+                    </a>
+                </div>
+            </div>
+
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/3-compressed.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="https://www.codewithharry.com/" target="_blank" class="common-heading">Project 3</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio/4-compressed.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="https://www.codewithharry.com/" target="_blank" class="common-heading">Project 4</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2">
+                <img src="images/folio/5-compressed.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="https://www.codewithharry.com/" target="_blank" class="common-heading">Project 5</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/1-compressed.jpg" alt="portfolio images " />
+                <div class="overlay">
+                    <a href="https://www.codewithharry.com/" target="_blank" class="common-heading">Project 6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================== 
+            Our work counter Section Start  
+      ========================================  -->
+
+    <section class="section section-work-data">
+        <div class="container grid grid-four-column">
+            <div>
+                <h2 class="counter-numbers" data-number="2000">0+</h2>
+                <p>project completed</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="6000">0+</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="5000">0+</h2>
+                <p>cups of coffee</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="3000">0+</h2>
+                <p>real professionals</p>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================== 
+            Our Services  Section Start  
+      ========================================  -->
+
+    <section class="section section-services" id="section-services">
+        <div class="container">
+            <h2 class="common-heading">Services Offers</h2>
+            <p>
+                This are the Services offer by us. 
+            </p>
+        </div>
+
+        <!-- services offers card  -->
+        <div class="container grid grid-three-column">
+            <div class="service-box">
+                <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-device-laptop" width="44" height="44" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="3" y1="19" x2="21" y2="19" />
+                        <rect x="5" y="6" width="14" height="10" rx="1" />
+                    </svg>
+                </div>
+                <h3>Web Development</h3>
+                <p>
+                    We make personal, proffessionals, marketing, e-commerce, etc websites for our clients. 
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                        class="icon icon-tabler icon-tabler-code" width="44" height="44" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <polyline points="7 8 3 12 7 16" />
+                        <polyline points="17 8 21 12 17 16" />
+                        <line x1="14" y1="4" x2="10" y2="20" />
+                    </svg>
+                </div>
+                <h3>Clean Code</h3>
+                <p>
+                    We write clean code because it allows other developers to understand. 
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-devices" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="13" y="8" width="8" height="12" rx="1" />
+                        <path d="M18 8v-3a1 1 0 0 0 -1 -1h-13a1 1 0 0 0 -1 1v12a1 1 0 0 0 1 1h9" />
+                        <line x1="16" y1="9" x2="18" y2="9" />
+                    </svg>
+                </div>
+                <h3>Responsive Design</h3>
+                <p>
+                    The goal of responsive design is to build web pages that detect the visitor's screen size and orientation and change the layout accordingly.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-react-native"
+                        width="44" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M6.357 9c-2.637 .68 -4.357 1.845 -4.357 3.175c0 2.107 4.405 3.825 9.85 3.825c.74 0 1.26 -.039 1.95 -.097" />
+                        <path
+                            d="M9.837 15.9c-.413 -.596 -.806 -1.133 -1.18 -1.8c-2.751 -4.9 -3.488 -9.77 -1.63 -10.873c1.15 -.697 3.047 .253 4.974 2.254" />
+                        <path
+                            d="M6.429 15.387c-.702 2.688 -.56 4.716 .56 5.395c1.783 1.08 5.387 -1.958 8.043 -6.804c.36 -.67 .683 -1.329 .968 -1.978" />
+                        <path
+                            d="M12 18.52c1.928 2 3.817 2.95 4.978 2.253c1.85 -1.102 1.121 -5.972 -1.633 -10.873c-.384 -.677 -.777 -1.204 -1.18 -1.8" />
+                        <path
+                            d="M17.66 15c2.612 -.687 4.34 -1.85 4.34 -3.176c0 -2.11 -4.408 -3.824 -9.845 -3.824c-.747 0 -1.266 .029 -1.955 .087" />
+                        <path
+                            d="M8 12c.285 -.66 .607 -1.308 .968 -1.978c2.647 -4.844 6.253 -7.89 8.046 -6.801c1.11 .679 1.262 2.706 .56 5.393" />
+                        <path
+                            d="M12.26 12.015h-.01c-.01 .13 -.12 .24 -.26 .24a0.263 .263 0 0 1 -.25 -.26c0 -.14 .11 -.25 .24 -.25h-.01c.13 -.01 .25 .11 .25 .24" />
+                    </svg>
+                </div>
+                <h3>React</h3>
+                <p>
+                    React is a JavaScript library for building user interfaces. React is used to build single-page applications. React allows us to create reusable UI components.
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gitlab" width="44"
+                        height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#2c3e50" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M21 14l-9 7l-9 -7l3 -11l3 7h6l3 -7z" />
+                    </svg>
+                </div>
+                <h3>Git and Github</h3>
+                <p>
+                    Git is a software for tracking changes in any set or files. And GitHub is a provider of Internet hosting for software development and version control using Git. 
+                </p>
+            </div>
+
+            <div class="service-box">
+                <div class="service-icon">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <h3>Node Js</h3>
+                <p>
+                    Node.js is an open-source, cross-platform, back-end JavaScript runtime environment. By using Node you can run JavaScript code outside a web browser.                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================== 
+            Our Swiper Section Start  
+      ========================================  -->
+    <section class="section section-testimonial">
+        <div class="container">
+            <h2 class="common-heading">Happy Clients</h2>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/a-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/b-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/c-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/d-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/e-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/f-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/g-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/h-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p>Chris: With Yash's help, we were able to increase the functionality of our website
+                            dramatically
+                            while cutting our costs. Our website is much more easy to use, has tons of more features
+                            than before and is incredibly easy to maintain. We could not be more happy with our new
+                            website! Thanks Yash!</p>
+                    </div>
+                    <div class="swiper-client-data grid grid-two-column">
+                        <figure>
+                            <img src="images/clients/a-compressed.jpg" alt="client-img" />
+                        </figure>
+
+                        <div class="client-data-details">
+                            <p>Chris Hemsworth</p>
+                            <p>Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- ======================================== 
+            Our Freelancing   Section Start  
+      ========================================  -->
+
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>I am <span>available</span> for freelancing</h2>
+            <a href="/contact.html" class="btn">HIRE ME</a>
+        </div>
+    </section>
+    <!-- ======================================== 
+            Our Contact Us Section Start  
+      ========================================  -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us</h2>
+        </div>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/maykwean" method="POST">
+                <div class="grid grid-two-column">
+                    <div>
+                        <label for="username"></label>
+                        <input type="text" name="name" placeholder="Name" id="username" required autocomplete="off" />
+                    </div>
+                    <div>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="Email" id="email" autocomplete="off" required />
+                    </div>
+                </div>
+
+                <div>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" placeholder="Subject" id="subject" required autocomplete="off" />
+                </div>
+                <div>
+                    <label for="textarea"></label>
+                    <textarea name="message" id="textarea" placeholder="Message" cols="30" rows="10" required
+                        autocomplete="off" minlength="5"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" name="submit" id="submit" class="btn" value="send message" />
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- ======================================== 
+            Our Footer Section Start  
+      ========================================  -->
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site
+                    for your convenience. Hope you like it.</p>
+            </div>
+
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="/about.html">About</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="/service.html">Services</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="/portfolio.html">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="f-services">
+                <h3>Services</h3>
+                <ul>
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#section-services">Web Development</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#section-services">Clean Code</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#section-services">Responsive Design</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#section-services">React Js</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#section-services">Git and Github</a>
+                    </li>
+
+                    <li>
+                        <span>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </span><a href="#section-services">Node Js</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="f-address">
+                <h3>Have any Questions?</h3>
+                <address>
+                    <div>
+                        <p><span>
+                                <ion-icon name="pin"></ion-icon>
+                            </span>Mumbai, India</p>
+                    </div>
+
+                    <div>
+                        <p><span>
+                                <ion-icon name="call"></ion-icon>
+                            </span><a href="tel:+919137258794">+91 9137258794</a></p>
+                    </div>
+
+                    <div>
+                        <p>
+                            <span>
+                                <ion-icon name="mail"></ion-icon>
+                            </span>
+                            <a href="mailto:yashrathod0226@gmail.com">yashrathod0226@gmail.com</a>
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="https://www.instagram.com/yash__2212/" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/yash-rathod-885a90249/" target="_blank">
+                    <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://github.com/YashRathod22" target="_blank">
+                    <ion-icon class="icons" name="logo-github"></ion-icon>
+                </a>
+
+                <a href="https://www.facebook.com/profile.php?id=100014677393451" target="_blank">
+                    <ion-icon class="icons" name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="https://twitter.com/YashRat43518724" target="_blank">
+                    <ion-icon class="icons" name="logo-twitter"></ion-icon>
+                </a>
+            </div>
+
+            <div class="f-credits">
+                <p>Copyright &copy;2022 All rights reserved | This template is made with ❤ by Yash Rathod</p>
+            </div>
+        </div>
+    </footer>
+    <!-- ======================================== 
+            Our Javascript Section Start  
+      ========================================  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
